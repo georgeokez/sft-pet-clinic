@@ -8,4 +8,4 @@ _  / __  _  _ \_  __ \__  ___/__  __ `/_  _ \    __  / / /_  _ \__ | / /_  / / /
                               /____/                                            /_/
 
 :: Built by George with Spring Boot :: ${spring-boot.version}
-
+:: Logo design by George.DevOps
