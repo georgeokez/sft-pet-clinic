@@ -1,9 +1,12 @@
 package com.george.dev.sftpetclinic.model;
 
+import javax.persistence.MappedSuperclass;
+
 /**
  * Created by George on 12/11/2018
  */
 
+@MappedSuperclass
 public class Person {
 
     private String firstName;
