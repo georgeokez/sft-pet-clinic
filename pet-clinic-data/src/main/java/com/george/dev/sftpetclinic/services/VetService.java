@@ -15,4 +15,5 @@ public interface VetService {
     Owner save(Owner owner);
 
     Set<Owner> findAll();
+
 }
