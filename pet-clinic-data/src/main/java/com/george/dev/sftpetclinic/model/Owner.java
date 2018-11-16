@@ -7,5 +7,5 @@ import javax.persistence.Entity;
  */
 
 @Entity
-public class Vet extends Person {
+public class Owner extends Person {
 }
