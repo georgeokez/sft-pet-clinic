@@ -1,6 +1,6 @@
-package com.george.dev.sftpetclinic.services;
+package com.george.dev.data.services;
 
-import com.george.dev.sftpetclinic.model.Owner;
+import com.george.dev.data.model.Owner;
 
 /**
  * Created by George on 13/11/2018

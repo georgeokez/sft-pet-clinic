@@ -1,7 +1,7 @@
-package com.george.dev.sftpetclinic.services.map;
+package com.george.dev.data.services.map;
 
-import com.george.dev.sftpetclinic.model.Pet;
-import com.george.dev.sftpetclinic.services.CrudService;
+import com.george.dev.data.services.PetService;
+import com.george.dev.data.model.Pet;
 
 import java.util.Set;
 
@@ -9,7 +9,7 @@ import java.util.Set;
  * Created by George on 15/11/2018
  */
 
-public class PetServiceMap extends AbstractMapService<Pet, Long> implements CrudService<Pet, Long> {
+public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetService {
 
     @Override
     public Set<Pet> findAll() {

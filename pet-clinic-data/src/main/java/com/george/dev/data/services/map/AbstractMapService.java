@@ -1,4 +1,4 @@
-package com.george.dev.sftpetclinic.services.map;
+package com.george.dev.data.services.map;
 
 import java.util.HashMap;
 import java.util.HashSet;

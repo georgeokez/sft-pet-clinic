@@ -1,7 +1,7 @@
-package com.george.dev.sftpetclinic.services.map;
+package com.george.dev.data.services.map;
 
-import com.george.dev.sftpetclinic.model.Owner;
-import com.george.dev.sftpetclinic.services.CrudService;
+import com.george.dev.data.services.OwnerService;
+import com.george.dev.data.model.Owner;
 
 import java.util.Set;
 
@@ -9,7 +9,7 @@ import java.util.Set;
  * Created by George on 15/11/2018
  */
 
-public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements CrudService<Owner, Long> {
+public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService {
 
     @Override
     public Set<Owner> findAll() {
@@ -35,4 +35,10 @@ public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements 
     public void deleteById(Long id) {
         super.deleteById(id);
     }
+
+    @Override
+    public Owner findByLastName(String lastName) {
+        return null;
+    }
+
 }

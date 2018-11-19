@@ -1,4 +1,4 @@
-package com.george.dev.sftpetclinic.services;
+package com.george.dev.data.services;
 
 import java.util.Set;
 

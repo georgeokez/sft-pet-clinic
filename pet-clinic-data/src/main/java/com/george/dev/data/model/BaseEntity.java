@@ -1,4 +1,4 @@
-package com.george.dev.sftpetclinic.model;
+package com.george.dev.data.model;
 
 import java.io.Serializable;
 
