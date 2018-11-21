@@ -2,6 +2,7 @@ package com.george.dev.data.services.map;
 
 import com.george.dev.data.services.PetService;
 import com.george.dev.data.model.Pet;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
@@ -9,6 +10,7 @@ import java.util.Set;
  * Created by George on 15/11/2018
  */
 
+@Service
 public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetService {
 
     @Override

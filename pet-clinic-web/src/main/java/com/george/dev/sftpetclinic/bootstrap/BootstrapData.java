@@ -5,27 +5,23 @@ import com.george.dev.data.model.Owner;
 import com.george.dev.data.model.Vet;
 import com.george.dev.data.services.OwnerService;
 import com.george.dev.data.services.VetService;
-import com.george.dev.data.services.map.OwnerServiceMap;
-import com.george.dev.data.services.map.VetServiceMap;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
 
 /**
  * Created by George on 19/11/2018
-
 */
 
 @Component
 public class BootstrapData implements CommandLineRunner {
 
     private final OwnerService ownerService;
-
     private final VetService vetService;
 
-    public BootstrapData() {
-        ownerService = new OwnerServiceMap();
-        vetService = new VetServiceMap();
+    public BootstrapData(OwnerService ownerService, VetService vetService) {
+        this.ownerService = ownerService;
+        this.vetService = vetService;
     }
 
     @Override
