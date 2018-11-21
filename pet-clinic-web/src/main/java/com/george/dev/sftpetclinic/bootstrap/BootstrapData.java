@@ -28,14 +28,12 @@ public class BootstrapData implements CommandLineRunner {
     public void run(String... args) throws Exception {
 
         Owner owner1 = new Owner();
-        owner1.setId(1L);
         owner1.setFirstName("George");
         owner1.setLastName("Okez");
 
         ownerService.save(owner1);
 
         Owner owner2 = new Owner();
-        owner2.setId(2L);
         owner2.setFirstName("Tobi");
         owner2.setLastName("Abram");
 
@@ -44,14 +42,12 @@ public class BootstrapData implements CommandLineRunner {
         System.out.println("Loading Owners....");
 
         Vet vet1 = new Vet();
-        vet1.setId(1L);
         vet1.setFirstName("Sam");
         vet1.setLastName("Axe");
 
         vetService.save(vet1);
 
         Vet vet2 = new Vet();
-        vet2.setId(2L);
         vet2.setFirstName("Jack");
         vet2.setLastName("Wood");
 
